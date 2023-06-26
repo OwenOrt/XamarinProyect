@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "1t6+lJW3xtAhXBWRFy4B7o2eHAf0GxPl+bI2/FqXF/fjumhbP3SiuX78/RHx8YacCgBzOtIwV0p730rXF17IIA==",
+  "success": true,
+  "projectFilePath": "/Users/owenor/Projects/Aplicacion/Aplicacion/Aplicacion/Aplicacion.csproj",
+  "expectedPackageFiles": [
+    "/Users/owenor/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/owenor/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/owenor/.nuget/packages/sqlite/3.13.0/sqlite.3.13.0.nupkg.sha512",
+    "/Users/owenor/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/owenor/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/owenor/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
