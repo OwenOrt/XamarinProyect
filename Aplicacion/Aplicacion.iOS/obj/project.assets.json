@@ -2,6 +2,33 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "SQLite/3.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libsqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libsqlite3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win7-x64/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -175,6 +202,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SQLite": "3.13.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -187,6 +215,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "SQLite/3.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -360,6 +397,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SQLite": "3.13.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -372,6 +410,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "SQLite/3.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -545,6 +592,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SQLite": "3.13.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -557,6 +605,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "SQLite/3.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -730,6 +787,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SQLite": "3.13.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
@@ -743,6 +801,27 @@
     }
   },
   "libraries": {
+    "SQLite/3.13.0": {
+      "sha512": "MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
+      "type": "package",
+      "path": "sqlite/3.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/SQLite.props",
+        "lib/netstandard1.0/_._",
+        "runtimes/linux-x64/native/libsqlite3.so",
+        "runtimes/osx-x64/native/libsqlite3.dylib",
+        "runtimes/win10-arm/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win7-x64/native/sqlite3.dll",
+        "runtimes/win7-x86/native/sqlite3.dll",
+        "sqlite-version.txt",
+        "sqlite.3.13.0.nupkg.sha512",
+        "sqlite.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1067,11 +1146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/owenor/Projects/Aplicacion/Aplicacion/Aplicacion.iOS/Aplicacion.iOS.csproj",
+      "projectUniqueName": "/Users/owenor/Documents/GitHub/XamarinProyect/Aplicacion/Aplicacion.iOS/Aplicacion.iOS.csproj",
       "projectName": "Aplicacion.iOS",
-      "projectPath": "/Users/owenor/Projects/Aplicacion/Aplicacion/Aplicacion.iOS/Aplicacion.iOS.csproj",
+      "projectPath": "/Users/owenor/Documents/GitHub/XamarinProyect/Aplicacion/Aplicacion.iOS/Aplicacion.iOS.csproj",
       "packagesPath": "/Users/owenor/.nuget/packages/",
-      "outputPath": "/Users/owenor/Projects/Aplicacion/Aplicacion/Aplicacion.iOS/obj/",
+      "outputPath": "/Users/owenor/Documents/GitHub/XamarinProyect/Aplicacion/Aplicacion.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1086,8 +1165,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/owenor/Projects/Aplicacion/Aplicacion/Aplicacion/Aplicacion.csproj": {
-              "projectPath": "/Users/owenor/Projects/Aplicacion/Aplicacion/Aplicacion/Aplicacion.csproj"
+            "/Users/owenor/Documents/GitHub/XamarinProyect/Aplicacion/Aplicacion/Aplicacion.csproj": {
+              "projectPath": "/Users/owenor/Documents/GitHub/XamarinProyect/Aplicacion/Aplicacion/Aplicacion.csproj"
             }
           }
         }

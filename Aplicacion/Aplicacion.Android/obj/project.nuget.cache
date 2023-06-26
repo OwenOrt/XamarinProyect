@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "L8WYfSpIoDK2dVqg0MZ1uqwSvUGhXOGWTu18se7hD2tPRZvWOxpmcLDZ/3ppOTUhue0Do6rs2H0+g9nrdGxCfg==",
+  "dgSpecHash": "2V+fN3DfAMhzG++QgjPHAg34ipY/jy51wNY4UgC5q2nfbdBpZw5VKdtnm+d6vE1KdrQyIw1+z1o3Qvd8mIIhAQ==",
   "success": true,
-  "projectFilePath": "/Users/owenor/Projects/Aplicacion/Aplicacion/Aplicacion.Android/Aplicacion.Android.csproj",
+  "projectFilePath": "/Users/owenor/Documents/GitHub/XamarinProyect/Aplicacion/Aplicacion.Android/Aplicacion.Android.csproj",
   "expectedPackageFiles": [
+    "/Users/owenor/.nuget/packages/sqlite/3.13.0/sqlite.3.13.0.nupkg.sha512",
     "/Users/owenor/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/owenor/.nuget/packages/xamarin.androidx.activity/1.2.4.1/xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "/Users/owenor/.nuget/packages/xamarin.androidx.annotation/1.2.0.1/xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
